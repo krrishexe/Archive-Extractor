@@ -208,9 +208,17 @@
                 
                 <div class="drop_box">
                     
-                    <input type="file" hidden accept=".doc,.docx,.pdf" id="fileID" style="display:none;">
-                    <button class="bluebutton">Choose File <br> <span class="trash">from your computer</span></button>
+                    <label class="mt-4 btn btn-primary" for="file">Choose file<br /><span>from your computer</span></label>
+                    <input type="file" id="file" name="file" style="display:none" />
 
+                    <div id="div2" class=" flex-column mt-3 ml-2">
+                        <h6>Archive successfully extracted</h6>
+                        <button class=" p-2 btn btn-primary" onclick="downloadAll()"><i class="bi bi-download"></i> Save all
+                            files</button>
+                        <div class="p-2 ml-0" id="tree"></div>
+                        <button class=" p-2 btn btn-secondary " onclick="refresh()"><i class="bi bi-arrow-left"></i> Extract another
+                            archive</button>
+                    </div>
                     <div>
                         <p>
                         <a class="gdrive" href="#"><i class="fa fa-google" aria-hidden="true"></i>Google Drive</a>
@@ -244,7 +252,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
-    <script src="scripts/script.js"></script>
+    <!-- <script src="scripts/script.js"></script> -->
     <script src="scripts/jszip.min.js"></script>
     <script src="scripts/jszip-utils.min.js"></script>
     <script src="scripts/app1.js"></script>
