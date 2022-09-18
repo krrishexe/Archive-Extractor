@@ -12,7 +12,13 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
         integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <script type="text/javascript" charset="utf8"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/jstree.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
 
 </head>
 
@@ -38,15 +44,15 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#"><i class="fa fa-film" aria-hidden="true"></i>
-                            Video Editor</a>
+                                    Video Editor</a>
                             </li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>
-                                Trim video</a>
+                                    Trim video</a>
                             </li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-plus-square" aria-hidden="true"></i>
-                                Merge videos</a>
+                                    Merge videos</a>
                             </li>
-                            
+
                             <li><a class="dropdown-item" href="#"><i class="fa fa-solid fa-music"></i>Add audio to
                                     video</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-solid fa-image"></i>Add image to
@@ -60,18 +66,21 @@
                                     video</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-undo" aria-hidden="true"></i>
                                     Flip video </a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-compress" aria-hidden="true"></i>Resize video</a>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-compress"
+                                        aria-hidden="true"></i>Resize video</a>
                             </li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-solid fa-repeat"></i>Loop video</a>
                             </li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-volume-up" aria-hidden="true"></i>Change volume</a>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-volume-up"
+                                        aria-hidden="true"></i>Change volume</a>
                             </li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-fast-forward" aria-hidden="true"></i>Change Video speed</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-fast-forward"
+                                        aria-hidden="true"></i>Change Video speed</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-align-center" aria-hidden="true"></i>
-                                Stabilize
+                                    Stabilize
                                     video</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-video-camera" aria-hidden="true"></i>
-                                Video recorder</a>
+                                    Video recorder</a>
                             </li>
                         </ul>
                     </li>
@@ -82,19 +91,20 @@
                             Audio tools
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>Trim audio</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>Trim
+                                    audio</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-volume-off" aria-hidden="true"></i>
-                                Change Volume</a></li>
+                                    Change Volume</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>
-                                Change speed</a></li>
+                                    Change speed</a></li>
                             <li><a class="dropdown-item" href="#"> <i class="fa fa-music" aria-hidden="true"></i>
-                                Equalizer</a></li>
+                                    Equalizer</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-backward" aria-hidden="true"></i>
-                                Reverse Video</a></li>
+                                    Reverse Video</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-microphone" aria-hidden="true"></i>
-                                Voice recorder</a></li>
+                                    Voice recorder</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-code-fork" aria-hidden="true"></i>
-                                Audio Joiner</a></li>
+                                    Audio Joiner</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -104,25 +114,26 @@
                             PDF tools
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="btn-group dropright dropdown-item dropdown-toggle"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                            <li class="btn-group dropright dropdown-item dropdown-toggle"><i class="fa fa-file-pdf-o"
+                                    aria-hidden="true"></i>
                                 Convert from PDF
                             </li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                Convert to PDF</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>
-                                Split</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-plus-square" aria-hidden="true"></i>Merge</a></li>
+                                    Split</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-plus-square"
+                                        aria-hidden="true"></i>Merge</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-compress" aria-hidden="true"></i>
-                                Compress</a></li>
+                                    Compress</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-unlock" aria-hidden="true"></i>
-                                Unlock</a></li>
+                                    Unlock</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-shield" aria-hidden="true"></i>
-                                Protect</a></li>
+                                    Protect</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-refresh" aria-hidden="true"></i>
-                                Rotate</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
-                                Add page numbers</a></li>
-                            
+                                    Rotate</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-sort-numeric-asc"
+                                        aria-hidden="true"></i>
+                                    Add page numbers</a></li>
+
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -133,19 +144,21 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#"><i class="fa fa-music" aria-hidden="true"></i>
-                                Audio converter</a></li>
+                                    Audio converter</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-file-video-o" aria-hidden="true"></i>
-                                Video converter</a></li>
+                                    Video converter</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-file-image-o" aria-hidden="true"></i>
-                                Image converter</a></li>
+                                    Image converter</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-file-code-o" aria-hidden="true"></i>
-                                Document converter</a></li>
+                                    Document converter</a></li>
                             <li><a class="dropdown-item" href="#"><i class="fa fa-file-excel-o" aria-hidden="true"></i>
-                                Font converter</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-archive-o" aria-hidden="true"></i>
-                                Archive converter</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-archive-o" aria-hidden="true"></i>
-                                Ebook converter</a></li>
+                                    Font converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-archive-o"
+                                        aria-hidden="true"></i>
+                                    Archive converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-archive-o"
+                                        aria-hidden="true"></i>
+                                    Ebook converter</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -156,46 +169,87 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#"><i class="fa fa-archive" aria-hidden="true"></i>
-                                Archive extractor</a></li>
+                                    Archive extractor</a></li>
                         </ul>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#"><i class="fa fa-archive" aria-hidden="true"></i>
-                                Archive extractor</a></li>
+                                    Archive extractor</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
-            <button class="btn btn-outline-success" type="submit">Log in</button>
+            <button class="btn btn-outline-primary" type="submit">Log in</button>
         </div>
     </nav>
 
     <div class="container">
-        
-            <div class="ad">
-                <div
-                    style="width: auto; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">
-                    Place your AD here 
-                </div>
-                <button class="remove-ads">Remove Ads</button>
-            </div>
 
-            <div class="hero">
-                <a href="#">
-                <img src="https://img.icons8.com/ios/100/000000/open-delivered-box.png"/></a>
-                <a href="#"><h4>Archive Extractor</h4></a>
-            
+        <div class="ad">
+            <div
+                style="width: auto; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">
+                Place your AD here
             </div>
-            <p>Archive Extractor is a small and easy online tool that can extract over 70 types of compressed <br> files, such as 7z, zipx, rar, tar, exe, dmg and much more.
-            </p>
+            <button class="remove-ads">Remove Ads</button>
+        </div>
+
+        <div class="hero">
+            <a href="#"><img src="https://img.icons8.com/ios/100/000000/open-delivered-box.png" /></a>
+            <a href="#">
+                <h4>Archive Extractor</h4>
+            </a>
+
+        </div>
+        <p>Archive Extractor is a small and easy online tool that can extract over 70 types of compressed <br> files,
+            such as 7z, zipx, rar, tar, exe, dmg and much more.
+        </p>
+
+        <div class="containerup">
+            <div class="card">
+                
+                <div class="drop_box">
+                    
+                    <input type="file" hidden accept=".doc,.docx,.pdf" id="fileID" style="display:none;">
+                    <button class="bluebutton">Choose File <br> <span class="trash">from your computer</span></button>
+
+                    <div>
+                        <p>
+                        <a class="gdrive" href="#"><i class="fa fa-google" aria-hidden="true"></i>Google Drive</a>
+                        <a class="dropbox" href="#"><i class="fa fa-dropbox" aria-hidden="true"></i>Ddropbox</a>
+                        <a class="link" href="#"><i class="fa fa-link" aria-hidden="true"></i>Link</a>
+                        </p>
+                        <p><i>or drag and drop file here...</i></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="drop_box">
+            <h6>Supported formats:</h6>
+            <p>7z, zipx, rar, tar, exe, dmg, iso, zip, msi, nrg, gz, cab, bz2, wim, ace <br>
+                alz, ar, arc, arj, bin, cdi, chm, cpt, cpio, cramfs, crunch, deb, dd, dms, ext, fat, format, gpt, hfs, ihex, lbr,<br> lzh, lzma, lzm, mbr, mdf, nsa, nds, nsis, ntfs, pit, pak, pdf, pp, qcow2, rpm, sar, squashfs, squeeze, sit,<br> sitx, swf, udf, uefi, vdi, vhd, vmdk, warc, xar, xz, z, zoo, zi, jar</p>
+            <h6>Supports password-protected archives</h6>
+            <h6>Can unpack multi-part archives (zip.001, rar.part1, z01, etc)</h6>
+        </div>
     </div>
 
-
-
+        <footer>
+            <p class="footerp"> © 123apps Computer Software Est. 2012–2022</p>
+            <a href="#"><p>Privacy</p></a>
+            <a href="#"><p>Pricing</p></a>
+            <a href="#"><p>Contact us</p></a>
+            <a class="footerglobe" href="#"><i class="fa fa-globe-w" aria-hidden="true"></i>English</a>
+        </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/jszip.min.js"></script>
+    <script src="scripts/jszip-utils.min.js"></script>
+    <script src="scripts/app1.js"></script>
+    <script src="scripts/FileSaver.min.js"></script>
+
 </body>
 
 </html>
-
-
-
-<!-- <i class="fa fa-solid fa-video"></i> -->
