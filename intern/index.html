@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Archive Extractor online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="/images/site_logo.png" alt="Logo" width="80px" height="50px"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler4"
+                aria-controls="myNavbarToggler4" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbarToggler4">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            Video tools
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-film" aria-hidden="true"></i>
+                            Video Editor</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>
+                                Trim video</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-plus-square" aria-hidden="true"></i>
+                                Merge videos</a>
+                            </li>
+                            
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-solid fa-music"></i>Add audio to
+                                    video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-solid fa-image"></i>Add image to
+                                    video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-text-height"
+                                        aria-hidden="true"></i>Add text to video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-times" aria-hidden="true"></i>Remove
+                                    logo from video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-thin fa-crop"></i>Crop video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-repeat" aria-hidden="true"></i>Rotate
+                                    video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-undo" aria-hidden="true"></i>
+                                    Flip video </a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-compress" aria-hidden="true"></i>Resize video</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-solid fa-repeat"></i>Loop video</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-volume-up" aria-hidden="true"></i>Change volume</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-fast-forward" aria-hidden="true"></i>Change Video speed</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-align-center" aria-hidden="true"></i>
+                                Stabilize
+                                    video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-video-camera" aria-hidden="true"></i>
+                                Video recorder</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa fa-barcode" aria-hidden="true"></i>
+                            Audio tools
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>Trim audio</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-volume-off" aria-hidden="true"></i>
+                                Change Volume</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-play-circle" aria-hidden="true"></i>
+                                Change speed</a></li>
+                            <li><a class="dropdown-item" href="#"> <i class="fa fa-music" aria-hidden="true"></i>
+                                Equalizer</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-backward" aria-hidden="true"></i>
+                                Reverse Video</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-microphone" aria-hidden="true"></i>
+                                Voice recorder</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-code-fork" aria-hidden="true"></i>
+                                Audio Joiner</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa fa-light fa-file"></i>
+                            PDF tools
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                Convert from PDF</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                Convert to PDF</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-scissors" aria-hidden="true"></i>
+                                Split</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-plus-square" aria-hidden="true"></i>Merge</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-compress" aria-hidden="true"></i>
+                                Compress</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-unlock" aria-hidden="true"></i>
+                                Unlock</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-shield" aria-hidden="true"></i>
+                                Protect</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-refresh" aria-hidden="true"></i>
+                                Rotate</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-sort-numeric-asc" aria-hidden="true"></i>
+                                Add page numbers</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa fa-sharp fa-solid fa-loader"></i>
+                            Converters
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-music" aria-hidden="true"></i>
+                                Audio converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+                                Video converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-image-o" aria-hidden="true"></i>
+                                Image converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-code-o" aria-hidden="true"></i>
+                                Document converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-excel-o" aria-hidden="true"></i>
+                                Font converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-archive-o" aria-hidden="true"></i>
+                                Archive converter</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-file-archive-o" aria-hidden="true"></i>
+                                Ebook converter</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            Utilities
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-archive" aria-hidden="true"></i>
+                                Archive extractor</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-outline-success" type="submit">Log in</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+            <div class="ad">
+                <div
+                    style="width: auto; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">
+                    LEADERBOARD
+                </div>
+                <button class="remove-ads">Remove Ads</button>
+            </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <i class="fa fa-solid fa-video"></i> -->
